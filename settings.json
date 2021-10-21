@@ -1,0 +1,61 @@
+{
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+  "tabnine.experimentalAutoImports": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.mouseWheelZoom": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "editor.fontFamily": "Cascadia Code,'Courier New', monospace",
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}Shamaun Nabi",
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#f8dc07",
+    "tab.activeBorderTop": "#12b38a"
+  },
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "expand",
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+
+  "editor.fontSize": 18,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.lineHeight": 25,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+
+  //   Advnaced Customization
+
+  "editor.tokenColorCustomizations": {
+    "[Monokai Pro (Filter Octagon)]": {
+      "comments": "#fffb00",
+      //   "strings": "#249ea7",
+      "textMateRules": [
+        {
+          "scope": "variable.other",
+          "settings": {
+            "foreground": "#FC9867"
+          }
+        },
+        {
+          "scope": "variable.other.readwrite",
+          "settings": {
+            "foreground": "#0d99ab"
+          }
+        }
+      ]
+    }
+  }
+}
